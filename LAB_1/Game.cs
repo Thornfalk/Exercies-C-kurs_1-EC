@@ -8,7 +8,7 @@ namespace Extra_Exercise_3
 {
     class Game
     {
-        //Processing game method (Logic)
+        //Processing game method (Game Logic)
         public int[,] ProcessingGame(int[,] arr)
         {
             int[,] temp = new int[20,38];
@@ -108,43 +108,23 @@ namespace Extra_Exercise_3
         {
             Random rand = new Random();
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine("                - CONWAY'S GAME OF LIFE - \n");
+            string _title = string.Format("\n                       - CONWAY'S GAME OF LIFE -\n\n");
+            Console.WriteLine(_title);
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                //Console.Write(" - ");
-                Console.BackgroundColor = ConsoleColor.White;
+                Console.BackgroundColor = ConsoleColor.Green;
                 Console.Write("  ");
                 for (int j = 0; j < arr.GetLength(1); j++)
                 {
                     if (arr[i, j] == 1)
                     {
                         Console.BackgroundColor = ConsoleColor.DarkBlue;
-                        Console.Write(" ");
-                        Console.BackgroundColor = ConsoleColor.White;
-
-                        //int redOrBlue = rand.Next(2);
-                        //if (redOrBlue == 1)
-                        //{
-                        //    //Console.ForegroundColor = ConsoleColor.Red;
-                        //    //Console.Write(">");
-                        //    //Console.ForegroundColor = ConsoleColor.Red;
-                        //    //Console.Write("*");
-                        //    //Console.ForegroundColor = ConsoleColor.Red;
-                        //    Console.Write("<");
-                        //}
-                        //else
-                        //{
-                        //    //Console.ForegroundColor = ConsoleColor.Blue;
-                        //    //Console.Write("<");
-                        //    //Console.ForegroundColor = ConsoleColor.Blue;
-                        //    //Console.Write("*");
-                        //    //Console.ForegroundColor = ConsoleColor.Blue;
-                        //    Console.Write(">");
-                        //}
+                        Console.Write("  ");
+                        Console.BackgroundColor = ConsoleColor.Green;
                     }
                     else
                     {
-                        Console.Write(" ");
+                        Console.Write("  ");
                     }
                 }
                 Console.WriteLine();
