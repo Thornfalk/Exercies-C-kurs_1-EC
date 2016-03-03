@@ -1,0 +1,6 @@
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\bin\Debug\Exercise_10.exe.config
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\obj\Debug\Exercise_10.csprojResolveAssemblyReference.cache
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\bin\Debug\Exercise_10.exe
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\bin\Debug\Exercise_10.pdb
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\obj\Debug\Exercise_10.exe
+C:\Users\Johan\documents\visual studio 2015\Projects\Exercises_BasKursen\Exercise_10\obj\Debug\Exercise_10.pdb
