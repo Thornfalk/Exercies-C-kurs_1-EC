@@ -28,17 +28,18 @@ namespace Extra_Exercise_3
             for (int i = 0; i < 5; i++)
             {
                 System.Threading.Thread.Sleep(300);
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Black;
                 Console.Write("  " + counter);
                 counter--;
             }
-            System.Threading.Thread.Sleep(500);
+            System.Threading.Thread.Sleep(800);
             Console.BackgroundColor = ConsoleColor.Green;
-            
+            Console.Clear();
+
             //Running and looping the cells
             while (true)
             {
-                Console.Clear();
+                Console.SetCursorPosition(0, 0);
                 game.PrintToGrid(arr);
                 System.Threading.Thread.Sleep(50);
                 arr = game.ProcessingGame(arr);
